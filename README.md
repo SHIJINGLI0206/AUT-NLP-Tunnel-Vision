@@ -15,7 +15,11 @@
 - [Bugs](#bugs-)
 
 ## Introduction 📖
-This project is a part of the NLP Tunnel Vision. The goal of this project is to generate comments for a new article by considering the history of articles and comments of a news reader. The project is divided into four parts:
+This project is a part of the NLP Tunnel Vision. The overview architecture is shown in following figure. 
+
+![Overview](./assets/images/overview.png)
+
+The goal of this project is to generate comments for a new article by considering the history of articles and comments of a news reader. The project is divided into four parts:
 
 1. **Data Process**: Download data from Kaggle website and converting it into a specific format.
 2. **Model Fine-tunning**: Fine-tune model using the processed dataset.
